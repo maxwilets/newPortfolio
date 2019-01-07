@@ -1764,10 +1764,13 @@ input, select, textarea {
 				width: 48px;
 				height: 48px;
 			}
-
+        .itemborder {
+			border: 3px solid rgb(225,118,137);
+		}
 		.image.fit {
 			display: block;
 			width: 100%;
+			
 		}
 
 		.image.featured {
@@ -2244,11 +2247,11 @@ input, select, textarea {
 						border-bottom-color: rgba(255, 255, 255, 0);
 					}
 
-			#main > section.cover {
+		/*	#main > section.cover {
 				padding: 10em 0;
 				background-size: cover;
 				background-position: center center;
-			}
+			}*/
 
 			#main > section.one {
 				/*background-color: #81918E;*/
