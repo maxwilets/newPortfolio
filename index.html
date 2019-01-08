@@ -23,7 +23,7 @@
 
 			<!-- Logo -->
 			<div id="logo">
-				<span class="image avatar48"><img src="images/avatar.jpg" alt="" /></span>
+				
 				<h1 id="title">Max Wilets</h1>
 				<p>Full Stack Developer</p>
 			</div>
@@ -124,16 +124,23 @@
 
 				<hr class='afterBio'>
 				<div class="row">
-				<div class="col-lg-4"></div>
+				
 				<div class="col-lg-4 col-12-mobile">
 				<p><button id="resume" class="buttonD">Resume</button> 
+				
 				</p>
+				</div>
+				<div class="col-lg-4 col-12-mobile">
 				<p>
 					<button id="github" class="buttonD">Github</button>
-					
+				</p>
+				</div>
+
+				<div class= "col-lg-4 col-12-mobile">	
 				<p>
 					<button id="linkin" class="buttonD">LinkedIn</button>
-					
+					</p>
+					</div>
 				</div>
 				</div>
 				<div class='row'>
@@ -289,8 +296,8 @@
 	<section id="contact" class="four">
 			<div class= 'container' id='contact'>
                     <div class= 'col-12' style="margin-top: 15px"></div>
-                    <div class= 'col-12 portfolio bg griy' style="background-color:#b7b9bc" style= 'margin-bottom: 15px; padding:10px'>
-                        <h2>Contact Me</h2> 
+                    <div class= 'col-12 portfolio bg griy' style="background-color:#b7b9bc; border: 1px solid rgb(225,118,137)" style= 'margin-bottom: 15px; padding:10px'>
+                        <h2 >Contact Me</h2> 
                     </div>
                 
                     <form method= 'POST' action='https://formspree.io/mwilets@gmail.com'>
@@ -353,5 +360,35 @@
 
 	$("#linkin").on("click", function(){
 		document.location.href= "https://www.linkedin.com/in/maxwell-wilets-7aa205139/"
+	})
+
+	$("#proj1").on("click", function(){
+       document.location.href = "https://tranquil-shore-27347.herokuapp.com/"
+	})
+
+	$("#proj3").on("click", function(){
+		document.location.href = "https://shutupjon.github.io/groupProject1/"
+	})
+
+	$("#proj4").on("click", function(){
+        document.location.href = "https://friend-finder-plus.herokuapp.com/"
+	})
+
+	$("#git1").on("click", function(){
+        document.location.href="https://github.com/maxwilets/WizardQuest4"
+	})
+
+	$("#git2").on("click", function(){
+		document.location.href="https://github.com/maxwilets/nodeWord"
+		
+	})
+
+	$("#git3").on("click", function(){
+		document.location.href= "https://github.com/ShutUpJon/groupProject1"
+		
+	})
+
+	$("#git4").on("click", function(){
+		document.location.href= "https://github.com/maxwilets/friendFinder"
 	})
 </script>
