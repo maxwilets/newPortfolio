@@ -2011,6 +2011,9 @@ input, select, textarea {
 			}
 
 /* Icons */
+   .formbor{
+	   border: 1px solid rgb(225,118,137);
+   }
 
 	.icon {
 		text-decoration: none;
@@ -2266,12 +2269,12 @@ input, select, textarea {
 			}*/
 
 			#main > section.one {
-				background-color: #81918E;
+				
 				background:   linear-gradient(to top right,rgb(65,72,76),rgba(225,118,137)), url("../../images/slc.jpg");
 				background-repeat: no-repeat;
 				background-size: cover;
 				opacity: 0.7}
-                
+          
 			/*	position: relative;
 					width: 100%;
 					height: 100%;
@@ -2659,6 +2662,9 @@ input, select, textarea {
 			}
 
 		/* Main */
+		    #main > section.one{
+				background-image: linear-gradient(to top right,rgb(65,72,76),rgba(225,118,137)), url("../../images/slc.jpg");
+			}
 
 			#main > section {
 				padding: 2em 0;
