@@ -2269,7 +2269,7 @@ input, select, textarea {
 			}*/
 
 			#main > section.one {
-				
+				background: linear-gradient(to top right,rgb(65,72,76),rgba(225,118,137));
 				background-image:   linear-gradient(to top right,rgb(65,72,76),rgba(225,118,137)), url("../../images/slc.jpg");
 				background-repeat: no-repeat;
 				background-size: cover;
