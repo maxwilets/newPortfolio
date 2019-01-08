@@ -1743,7 +1743,17 @@ input, select, textarea {
 		}
 
 /* Image */
-
+    .buttonD {
+		font-size: 20px;
+		height: 0.5%;
+		width: 100%;
+		padding: 5px;
+		margin-bottom: 5px;
+		background-color: rgb(65,72,76);
+	}
+	.buttonD:hover{
+		color: rgb(225,118,137)
+	}
 	.image {
 		display: inline-block;
 		border: 0;
@@ -1766,6 +1776,8 @@ input, select, textarea {
 			}
         .itemborder {
 			border: 3px solid rgb(225,118,137);
+			margin-top: 10px;
+			margin-bottom: 10px; 
 		}
 		.image.fit {
 			display: block;
@@ -1948,10 +1960,10 @@ input, select, textarea {
 		position: relative;
 		display: inline-block;
 		border-radius: 0.35em;
-		color: #fff !important;
+		/*color: #fff !important;*/
 		text-decoration: none;
 		padding: 0.75em 2.5em 0.75em 2.5em;
-		background-color: #8ebebc;
+		/*background-color: #8ebebc;*/
 		border: 0;
 		cursor: pointer;
 		background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/overlay.png");
@@ -1962,22 +1974,22 @@ input, select, textarea {
 		-webkit-transition: background-color 0.35s ease-in-out;
 		-ms-transition: background-color 0.35s ease-in-out;
 		transition: background-color 0.35s ease-in-out;
+		border: solid 2px rgb(225,118,137);
+		color: rgba(255, 255, 255, 0.75)
 	}
 
-		input[type="button"]:hover,
+		/*input[type="button"]:hover,*/
 		input[type="submit"]:hover,
 		input[type="reset"]:hover,
-		button:hover,
-		.button:hover {
-			background-color: #9ececc;
-		}
+		
+	
 
-		input[type="button"]:active,
+		/*input[type="button"]:active,*/
 		input[type="submit"]:active,
 		input[type="reset"]:active,
 		button:active,
 		.button:active {
-			background-color: #7eaeac;
+			border: 1px solid rgb(225,118,137);
 		}
 
 /* Item */
