@@ -195,7 +195,26 @@
 
 
 				<div class="row">
-					<div class="col-lg-6 col-12  col-12-mobile">
+					<div class="col-lg-6 col-12 col-12-mobile">
+						<div class="itemborder">
+							<article class="item">
+								<img class="image fit" src="images/easthigh.PNG" alt=""/>
+								<header>
+									<h2>East High Support</h2>
+								</header>
+								<p>East Highschool has a food pantry and donation programs it has a high population of homeless students or living in homes under the poverty line.
+								   The school didn't have a secure website to handle money donations and had some challenging UI.
+								   <br>
+									 To solve the problem we built a from scratch website to make it easy for people to donate food, clothing, money or time. This is a full stack React app with
+									 a admin dashboard to catalogue donation items, volunteer time and expenses in a MongoDB. This website is published on the east high website and I have made myself available
+									 to trouble shoot any problems that might arise in the future. This is an ongoing project and hopefully we will be able to bring it to other schools
+								</p>
+								<div class="col-12">
+									<button class="buttonD" id="proj5">Deployed Project</button> <button class="buttonD" id="git5">GitHub Repo</button>
+								</div>
+							</article>
+						</div>
+					
 						<div class="itemborder">
 							<article class="item">
 								<img class="image fit" src="images/logo1.png" alt="" />
@@ -216,25 +235,8 @@
 								</div>
 							</article>
 						</div>
-						<div class="itemborder">
-							<article class="item">
-								<img class="image fit" src="images/hangman.PNG" alt="" />
-								<header>
-									<h2>Node Hangman</h2>
-								</header>
-								<p>A take on hangman using characters from the Final Fantasy games. The player inputs a letter until they guess
-									the right word. There are over 50 characters
-									to guess spanning from all the games from Final Fantasy 1 - Final Fantasy 15 and all the offshoot games like Kingdom Hearts and Final Fantasy Tactics!
-									<br>
-									This is an app ran in Node so it isn't deployed. But the link to its GitHub repo is available.
-								</p>
-								<div class="col-12">
-									<button class="buttonD" id="git2">GitHub Repo</button>
-								</div>
-							</article>
-						</div>
-
 					</div>
+					
 					<div class="col-lg-6 col-12 col-12-mobile">
 
 						<article class="item">
@@ -275,11 +277,12 @@
 							</div>
 						</article>
 						<article class="item">
-							<div class='itemborder'>
+							<div class='itemborder' style="padding-bottom: 5%; padding-top: 1.5%">
 							<img class="image fit" src="images/coming-soon.png" alt="" />
 							<header>
 								<h2>Tabletop RPG Character Tracker</h2>
 							</header>
+							<p>This is a personal project I am working on. It is a MERN react app that will let players track table top game progress</p>
 					</div>
 					</article>
 
@@ -374,7 +377,9 @@
 	$("#proj4").on("click", function(){
         document.location.href = "https://friend-finder-plus.herokuapp.com/"
 	})
-
+    $("#proj5").on("click", function(){
+		document.location.href="https://supporteasthigh.com"
+	})
 	$("#git1").on("click", function(){
         document.location.href="https://github.com/maxwilets/WizardQuest4"
 	})
@@ -391,5 +396,8 @@
 
 	$("#git4").on("click", function(){
 		document.location.href= "https://github.com/maxwilets/friendFinder"
+	})
+	$("#git5").on("click", function(){
+		document.location.href="https://github.com/mark-shin77/east-high-school-support"
 	})
 </script>
